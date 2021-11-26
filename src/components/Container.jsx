@@ -6,7 +6,6 @@ const Container = () => {
     return (
         <>
             <div className="container border my-3">
-       
                 <Cards />
             </div>
         </>

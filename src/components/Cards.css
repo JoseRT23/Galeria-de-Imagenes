@@ -1,9 +1,12 @@
 .imagesGrid {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;  
+  /* display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;   */
+  columns: 5 320px;
+  justify-content: space-around;
+  margin-bottom: 1em;
 }
 
 .card {
-  display: flex;
+display: flex;
 }

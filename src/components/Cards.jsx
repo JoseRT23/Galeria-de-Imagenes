@@ -12,12 +12,13 @@ const Cards = () => {
             <Form handleSubmit={handleSubmit} />
 
             {isActive && <Loading />}
+            
             <div>
 
             <div className="imagesGrid">
                 {images.map((img) => {
                 return <div key={img.id} className="">
-                            <CardPrincipal  img={img.urls.regular} download={img.links.download} name={`${img.user.first_name} ${img.user.last_name}`}/>
+                            <CardPrincipal  img={img.urls.regular}/>
                         </div>
                 })
                 }
